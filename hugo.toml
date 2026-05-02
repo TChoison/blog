@@ -1,0 +1,16 @@
+baseURL = "https://TChoison.github.io/"
+locale = "zh-cn"
+title = "Choi's开发小站"
+theme = "ananke"
+publishDir = "public"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  ananke_socials = []
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
